@@ -1,0 +1,75 @@
+.cal-card-container {
+  display: flex;
+  justify-content: center;
+  background-color: #a9a9c5;
+  background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  color: #07689f;
+  font-family: Roboto;
+  font-size: 40px;
+  text-align: center;
+}
+.cal-input-container {
+  margin-top: 70px;
+}
+
+.input {
+  background: white;
+  border: 1px solid black;
+  width: 350px;
+  border-radius: 5px;
+  padding: 12px;
+  outline: none;
+  font-size: 16px;
+  color: black;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.sign {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+  padding: 10px;
+}
+
+.button {
+  height: 8vh;
+  width: 8vh;
+  background: white;
+  border: 1px solid black;
+  font-size: 22px;
+}
+
+.reset-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reset-txt {
+  color: #40a8c5;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  margin-right: 55px;
+  width: 150px;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  border-radius: 7px;
+}
+
+.result-container {
+  font-size: 35px;
+  color: #425c81;
+  font-family: 'Roboto';
+}
